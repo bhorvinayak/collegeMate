@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6F67481F61BA4F00916657 /* HODPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F67471F61BA4F00916657 /* HODPanelViewController.swift */; };
+		0B6F674E1F62504A00916657 /* HodPanelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F674D1F62504A00916657 /* HodPanelTableViewCell.swift */; };
+		0B7838421F5BE74200FAF50B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7838411F5BE74200FAF50B /* SignInViewController.swift */; };
+		0B7838441F5BFD1700FAF50B /* StudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7838431F5BFD1700FAF50B /* StudentHomeViewController.swift */; };
+		0B7838481F5C0B6900FAF50B /* TeacherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7838471F5C0B6900FAF50B /* TeacherHomeViewController.swift */; };
+		0B78385A1F5C912400FAF50B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7838591F5C912400FAF50B /* User.swift */; };
+		0B78385C1F5CF0E400FAF50B /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78385B1F5CF0E400FAF50B /* LectureViewController.swift */; };
+		0B78385E1F5D02BD00FAF50B /* IssueBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78385D1F5D02BD00FAF50B /* IssueBookViewController.swift */; };
+		0B7838601F5D07E800FAF50B /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78385F1F5D07E800FAF50B /* BookViewController.swift */; };
+		0B7838621F5D26E500FAF50B /* TeacherLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7838611F5D26E500FAF50B /* TeacherLectureViewController.swift */; };
+		0BDBBE5F1F59E04E00D59EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBBE5E1F59E04E00D59EF3 /* AppDelegate.swift */; };
+		0BDBBE641F59E04E00D59EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE621F59E04E00D59EF3 /* Main.storyboard */; };
+		0BDBBE661F59E04E00D59EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE651F59E04E00D59EF3 /* Assets.xcassets */; };
+		0BDBBE691F59E04E00D59EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE671F59E04E00D59EF3 /* LaunchScreen.storyboard */; };
+		0BDBBE721F59E78800D59EF3 /* shutterstock_18085369.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE711F59E78800D59EF3 /* shutterstock_18085369.jpg */; };
+		0BDBBE741F59E79300D59EF3 /* aman-bhargava-272763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE731F59E79300D59EF3 /* aman-bhargava-272763.jpg */; };
+		0BDBBE791F59F35300D59EF3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBBE781F59F35300D59EF3 /* SignUpViewController.swift */; };
+		0BDBBE7B1F5A05CE00D59EF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBBE7A1F5A05CE00D59EF3 /* GoogleService-Info.plist */; };
+		0BE1FE441F5FF7B90046C9C7 /* AdminPanelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1FE431F5FF7B90046C9C7 /* AdminPanelTableViewCell.swift */; };
+		0BE1FE461F5FFC240046C9C7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1FE451F5FFC240046C9C7 /* UserModel.swift */; };
+		0BE1FE481F5FFF4C0046C9C7 /* AdminMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1FE471F5FFF4C0046C9C7 /* AdminMainViewController.swift */; };
+		FCCBAFD4E2E4E51ABB8E6292 /* Pods_CollageMateFirebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEF1836FF79FB3C1B80CCB /* Pods_CollageMateFirebaseApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B6F67471F61BA4F00916657 /* HODPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HODPanelViewController.swift; sourceTree = "<group>"; };
+		0B6F674D1F62504A00916657 /* HodPanelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HodPanelTableViewCell.swift; sourceTree = "<group>"; };
+		0B7838411F5BE74200FAF50B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0B7838431F5BFD1700FAF50B /* StudentHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentHomeViewController.swift; sourceTree = "<group>"; };
+		0B7838471F5C0B6900FAF50B /* TeacherHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherHomeViewController.swift; sourceTree = "<group>"; };
+		0B7838591F5C912400FAF50B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B78385B1F5CF0E400FAF50B /* LectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
+		0B78385D1F5D02BD00FAF50B /* IssueBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueBookViewController.swift; sourceTree = "<group>"; };
+		0B78385F1F5D07E800FAF50B /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		0B7838611F5D26E500FAF50B /* TeacherLectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherLectureViewController.swift; sourceTree = "<group>"; };
+		0BDBBE5B1F59E04E00D59EF3 /* CollageMateFirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollageMateFirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDBBE5E1F59E04E00D59EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BDBBE631F59E04E00D59EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BDBBE651F59E04E00D59EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BDBBE681F59E04E00D59EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BDBBE6A1F59E04E00D59EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDBBE711F59E78800D59EF3 /* shutterstock_18085369.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shutterstock_18085369.jpg; sourceTree = "<group>"; };
+		0BDBBE731F59E79300D59EF3 /* aman-bhargava-272763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aman-bhargava-272763.jpg"; sourceTree = "<group>"; };
+		0BDBBE781F59F35300D59EF3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0BDBBE7A1F5A05CE00D59EF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BE1FE431F5FF7B90046C9C7 /* AdminPanelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminPanelTableViewCell.swift; sourceTree = "<group>"; };
+		0BE1FE451F5FFC240046C9C7 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0BE1FE471F5FFF4C0046C9C7 /* AdminMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminMainViewController.swift; sourceTree = "<group>"; };
+		3AECBAB225DC790E0EA0386B /* Pods-CollageMateFirebaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollageMateFirebaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollageMateFirebaseApp/Pods-CollageMateFirebaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		97C95B652E3662FDB1B59B2F /* Pods-CollageMateFirebaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollageMateFirebaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollageMateFirebaseApp/Pods-CollageMateFirebaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BADEF1836FF79FB3C1B80CCB /* Pods_CollageMateFirebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollageMateFirebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDBBE581F59E04E00D59EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCBAFD4E2E4E51ABB8E6292 /* Pods_CollageMateFirebaseApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7838581F5C910700FAF50B /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				0B7838591F5C912400FAF50B /* User.swift */,
+				0BE1FE451F5FFC240046C9C7 /* UserModel.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		0BDBBE521F59E04E00D59EF3 = {
+			isa = PBXGroup;
+			children = (
+				0BDBBE5D1F59E04E00D59EF3 /* CollageMateFirebaseApp */,
+				0BDBBE5C1F59E04E00D59EF3 /* Products */,
+				77B38BA63EEEB25AE5E185CE /* Pods */,
+				9317377050225DD4C3D54A5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BDBBE5C1F59E04E00D59EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBBE5B1F59E04E00D59EF3 /* CollageMateFirebaseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BDBBE5D1F59E04E00D59EF3 /* CollageMateFirebaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				0B7838581F5C910700FAF50B /* Object */,
+				0BDBBE751F59F2D000D59EF3 /* Controllers */,
+				0BDBBE701F59E2BD00D59EF3 /* Supporting File */,
+				0BDBBE5E1F59E04E00D59EF3 /* AppDelegate.swift */,
+				0BDBBE621F59E04E00D59EF3 /* Main.storyboard */,
+				0BDBBE651F59E04E00D59EF3 /* Assets.xcassets */,
+				0BDBBE671F59E04E00D59EF3 /* LaunchScreen.storyboard */,
+				0BDBBE7A1F5A05CE00D59EF3 /* GoogleService-Info.plist */,
+				0BDBBE6A1F59E04E00D59EF3 /* Info.plist */,
+			);
+			path = CollageMateFirebaseApp;
+			sourceTree = "<group>";
+		};
+		0BDBBE701F59E2BD00D59EF3 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBBE731F59E79300D59EF3 /* aman-bhargava-272763.jpg */,
+				0BDBBE711F59E78800D59EF3 /* shutterstock_18085369.jpg */,
+			);
+			name = "Supporting File";
+			sourceTree = "<group>";
+		};
+		0BDBBE751F59F2D000D59EF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBBE781F59F35300D59EF3 /* SignUpViewController.swift */,
+				0B7838411F5BE74200FAF50B /* SignInViewController.swift */,
+				0B7838431F5BFD1700FAF50B /* StudentHomeViewController.swift */,
+				0B7838471F5C0B6900FAF50B /* TeacherHomeViewController.swift */,
+				0B78385B1F5CF0E400FAF50B /* LectureViewController.swift */,
+				0B78385D1F5D02BD00FAF50B /* IssueBookViewController.swift */,
+				0B78385F1F5D07E800FAF50B /* BookViewController.swift */,
+				0B7838611F5D26E500FAF50B /* TeacherLectureViewController.swift */,
+				0BE1FE431F5FF7B90046C9C7 /* AdminPanelTableViewCell.swift */,
+				0BE1FE471F5FFF4C0046C9C7 /* AdminMainViewController.swift */,
+				0B6F67471F61BA4F00916657 /* HODPanelViewController.swift */,
+				0B6F674D1F62504A00916657 /* HodPanelTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		77B38BA63EEEB25AE5E185CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C95B652E3662FDB1B59B2F /* Pods-CollageMateFirebaseApp.debug.xcconfig */,
+				3AECBAB225DC790E0EA0386B /* Pods-CollageMateFirebaseApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9317377050225DD4C3D54A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADEF1836FF79FB3C1B80CCB /* Pods_CollageMateFirebaseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BDBBE5A1F59E04E00D59EF3 /* CollageMateFirebaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDBBE6D1F59E04E00D59EF3 /* Build configuration list for PBXNativeTarget "CollageMateFirebaseApp" */;
+			buildPhases = (
+				D9CCDB9AFE1FD28AADBDC87A /* [CP] Check Pods Manifest.lock */,
+				0BDBBE571F59E04E00D59EF3 /* Sources */,
+				0BDBBE581F59E04E00D59EF3 /* Frameworks */,
+				0BDBBE591F59E04E00D59EF3 /* Resources */,
+				65ED252767684222AD3DE0D9 /* [CP] Embed Pods Frameworks */,
+				EE51F22919FFE6E4924A8848 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollageMateFirebaseApp;
+			productName = CollageMateFirebaseApp;
+			productReference = 0BDBBE5B1F59E04E00D59EF3 /* CollageMateFirebaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BDBBE531F59E04E00D59EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = vinus;
+				TargetAttributes = {
+					0BDBBE5A1F59E04E00D59EF3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0BDBBE561F59E04E00D59EF3 /* Build configuration list for PBXProject "CollageMateFirebaseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BDBBE521F59E04E00D59EF3;
+			productRefGroup = 0BDBBE5C1F59E04E00D59EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BDBBE5A1F59E04E00D59EF3 /* CollageMateFirebaseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDBBE591F59E04E00D59EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDBBE691F59E04E00D59EF3 /* LaunchScreen.storyboard in Resources */,
+				0BDBBE661F59E04E00D59EF3 /* Assets.xcassets in Resources */,
+				0BDBBE721F59E78800D59EF3 /* shutterstock_18085369.jpg in Resources */,
+				0BDBBE741F59E79300D59EF3 /* aman-bhargava-272763.jpg in Resources */,
+				0BDBBE641F59E04E00D59EF3 /* Main.storyboard in Resources */,
+				0BDBBE7B1F5A05CE00D59EF3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65ED252767684222AD3DE0D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollageMateFirebaseApp/Pods-CollageMateFirebaseApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollageMateFirebaseApp/Pods-CollageMateFirebaseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CCDB9AFE1FD28AADBDC87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollageMateFirebaseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE51F22919FFE6E4924A8848 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollageMateFirebaseApp/Pods-CollageMateFirebaseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDBBE571F59E04E00D59EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B78385C1F5CF0E400FAF50B /* LectureViewController.swift in Sources */,
+				0BDBBE791F59F35300D59EF3 /* SignUpViewController.swift in Sources */,
+				0B7838441F5BFD1700FAF50B /* StudentHomeViewController.swift in Sources */,
+				0B78385E1F5D02BD00FAF50B /* IssueBookViewController.swift in Sources */,
+				0BDBBE5F1F59E04E00D59EF3 /* AppDelegate.swift in Sources */,
+				0BE1FE481F5FFF4C0046C9C7 /* AdminMainViewController.swift in Sources */,
+				0B78385A1F5C912400FAF50B /* User.swift in Sources */,
+				0B6F67481F61BA4F00916657 /* HODPanelViewController.swift in Sources */,
+				0BE1FE461F5FFC240046C9C7 /* UserModel.swift in Sources */,
+				0B7838621F5D26E500FAF50B /* TeacherLectureViewController.swift in Sources */,
+				0B7838481F5C0B6900FAF50B /* TeacherHomeViewController.swift in Sources */,
+				0B6F674E1F62504A00916657 /* HodPanelTableViewCell.swift in Sources */,
+				0B7838601F5D07E800FAF50B /* BookViewController.swift in Sources */,
+				0B7838421F5BE74200FAF50B /* SignInViewController.swift in Sources */,
+				0BE1FE441F5FF7B90046C9C7 /* AdminPanelTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BDBBE621F59E04E00D59EF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDBBE631F59E04E00D59EF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BDBBE671F59E04E00D59EF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDBBE681F59E04E00D59EF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BDBBE6B1F59E04E00D59EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BDBBE6C1F59E04E00D59EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BDBBE6E1F59E04E00D59EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C95B652E3662FDB1B59B2F /* Pods-CollageMateFirebaseApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollageMateFirebaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinu.CollageMateFirebaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0BDBBE6F1F59E04E00D59EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AECBAB225DC790E0EA0386B /* Pods-CollageMateFirebaseApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollageMateFirebaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinu.CollageMateFirebaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDBBE561F59E04E00D59EF3 /* Build configuration list for PBXProject "CollageMateFirebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDBBE6B1F59E04E00D59EF3 /* Debug */,
+				0BDBBE6C1F59E04E00D59EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDBBE6D1F59E04E00D59EF3 /* Build configuration list for PBXNativeTarget "CollageMateFirebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDBBE6E1F59E04E00D59EF3 /* Debug */,
+				0BDBBE6F1F59E04E00D59EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BDBBE531F59E04E00D59EF3 /* Project object */;
+}
